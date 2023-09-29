@@ -1,0 +1,1103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    list-style: none;
+    text-decoration: none; 
+}
+body{
+    background-color: white;
+    color: white;
+    /*overflow:hidden;*/
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*section0*/
+.section0{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+    background-image:url('./images/karis/culture1.jpg.jpg'); 
+    background-size:cover;   
+}
+
+#navbar{
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+   
+   
+    /* position: fixed; */
+    z-index: 99;
+    /* margin-top: 5rem; */
+    background-color: rgba(243, 233, 242, 0.968);
+    
+    
+    /*border: solid;*/
+    
+}
+.logo-header{
+    color:rgb(196, 159, 92);
+    border: solid 1px rgb(196, 159, 92);
+    margin-left: 1em;
+   margin-right: 9rem;
+   padding: 0.5em;
+    text-transform: uppercase;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:8rem;
+    background-color:rgb(13, 28, 29);
+  background-image: url('./images/karis/culture2.jpg.jpg');
+  
+  background-repeat:
+   no-repeat;
+   background-position: center;
+   
+  background-blend-mode: darken;
+}
+.logo-header a{
+    width: 100%;
+    height: 100%;
+}
+.logo-header img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+   
+}
+
+span{
+    color:rgb(247, 83, 18);
+    font-family: 'Arial Narrow', Arial;
+    /*border-bottom: solid 2px rgb(196, 159, 92);*/
+}
+#navbar .nav-links {
+    font-size: 1.2rem;
+    width: 100%;
+    height:100%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    z-index:888;
+    
+
+
+}
+#navbar .nav-links li{
+    width: 100%;
+    height: 7rem;
+   
+}
+#navbar .nav-links .act {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+#navbar .nav-links .act a {
+   width:20rem;
+}
+#navbar .nav-links li .sub-links-ul {
+    font-size: 0px;
+    z-index: -10;
+    padding-top:4em;
+    width: 100%;
+    height: 0vh;
+    transition: all 500ms ease-in; 
+}
+#navbar .nav-links .act:hover > .sub-links-ul {
+    background-color: rgba(196, 159, 92);
+    z-index: 3;
+    
+    width: 100%;
+    font-size: 0.9em;
+    
+}
+#navbar .nav-links .act .sub-links-ul li{
+    height: 0px;
+    
+    transition: all 950ms ease-in;
+    
+}
+
+#navbar .nav-links .act:hover> .sub-links-ul li{
+    height: 7rem;
+    z-index:999;
+}
+#navbar .nav-links .act .sub-links-ul li a{
+    font-size: 0.99em;
+    padding: 2em;
+    text-align:center;
+    background-color: rgba(196, 159, 92);
+    width: 100%;
+    color:white;
+    
+    
+}
+#navbar .nav-links .act .sub-links-ul li a:hover {
+    font-size: 0.9em;
+    
+    background-color: rgba(255, 127, 80,0.5);
+    color: rgb(243, 236, 236);
+}
+#navbar .nav-links li a{
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 100ms ease-in;
+
+}
+#navbar .nav-links li a:hover{
+    font-size: 1.22rem;
+    
+    color: rgba(196, 159, 92); 
+}
+#navbar .nav-links li a.active{
+    color:rgb(196, 159, 92);
+}
+#navbar #check,.checkbutton .fas{
+    display: none;
+    font-size: 2.25rem;
+    cursor: pointer;  
+      
+}
+form{
+    
+    /*position: absolute;*/
+    
+    display: none;
+    color:rgb(196, 159, 92);
+    padding: 0.7em;
+}
+form button{
+    background:rgb(196, 159, 92);
+    color: white;
+    border: none;
+    font-size: 0.7em;
+    z-index: 1;
+    width: 5rem;
+    padding: 0.8em;
+    cursor: pointer;
+    transition: 100ms ease-in;
+    transition-duration: 200ms;
+}
+form #btn-r:hover{
+    transform: scale(1.05);
+     
+}
+form #btn-l:hover{
+    transform: scale(1.05); 
+}
+
+/*section1*/
+.section1{
+    display: flex;
+    width: 100%;
+    margin-bottom: 10rem;
+    padding:2em;
+    border:solid black;
+    background-color: rgb(43, 43, 2);
+    background-image: url('./images/karis/culture7.jpg.jpg');
+    background-blend-mode: darken;
+    
+}
+.gallery-cont{
+     border:solid black;
+    
+    display:flex;
+    justify-content: center;
+    
+    flex-wrap:wrap;
+    
+    width: 100%;
+    
+    
+
+}
+.gallery-cont .heading{
+    
+    color: white;
+    width: 100%;
+    padding:0.5em;
+    font-size: 1.8em;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    
+}
+.img-cont{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+    margin: 1rem;
+    
+    transition: all 300ms ease-in;
+   
+    border:solid black;
+}
+.gallery-cont .img-cont img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    
+}
+.gallery-cont .img-cont:hover{
+    cursor:pointer;
+    transform: scale(1.02);
+
+}
+.caption{
+    
+    font-size: 1em;
+    background-color: white;
+    color:black;
+    text-align: center;
+   
+    text-transform: uppercase;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    border:1px solid;
+    padding:0.3em;
+
+}
+.san {
+    color:rgb(247, 83, 18);
+    background-color: rgb(138, 111, 79,0.5);
+}
+img{
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+/*image slider*/
+#slider{
+    width: 100%;
+    margin-bottom: 10rem;
+    display: flex;
+    overflow: hidden;
+}
+.slide {
+    width: 100%;
+    height: 100vh;
+    animation: 60s slide ease-in-out infinite;
+    
+}
+
+#slider .slide a img{
+    width: 2000px;
+    height: 100vh;
+    object-fit: cover;
+}
+#slider .slide a figcaption{
+    position: absolute;
+    top: 50%;
+    padding: 0.5em;
+    width: 25rem;
+    margin-left: 2.5em;
+    display: flex;
+    flex-direction: column;
+    
+    color: white;
+    
+    line-height: 1.3;
+}
+#slider .slide a figcaption:hover{
+    color: rgb(17, 5, 1);
+    background:rgba(196, 159, 92,0.5);
+}
+@keyframes slide {
+    0% {transform: translateX(0);
+    }
+    25% {transform: translateX(0);
+    }
+    30% {transform: translateX(-100%);
+    }
+    50% {transform: translateX(-100%);
+    }
+    55% {transform: translateX(-200%);
+    }
+    75% {transform: translateX(-200%);
+    }
+    80% {transform: translateX(-300%);
+    }
+    100% {transform: translateX(-300%);
+    }
+    
+}
+
+/*section 2:*/
+.about-section{
+    width: 100%;
+    padding: 5em;
+    color: black;
+    background-color: grey;
+    background-image:url('./images/karis/culture3.jpg.jpg');
+    background-blend-mode:darken;
+    
+}
+.about-info{
+    padding: 3em;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    
+    gap:0.5em;
+    background-color:rgb(233, 228, 228);
+}
+.info-cont{
+    padding: 0.3em;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 10rem;
+    gap: 2em;
+    text-align:center;
+}
+.info-card{
+     
+    width: 100%;
+    padding: 0.2em;
+}
+.about-section .about-info h1,h3,h4{
+    padding: 0.3em;
+    text-transform: uppercase;
+    width: 100%;
+    font-size: 2em;
+   
+    border:solid;
+    justify-content:center;
+    
+}
+.about-section .about-info .glides h1{
+    font-size: 1em;
+    border:none;
+}
+.about-section .about-info h5{
+    padding: 0.3em;
+    font-size: 1em;
+}
+.info-card ul{
+   padding:0.5em;
+}
+.info-card ul li{
+   padding:0.5em;
+}
+
+
+.about-section .about-info p{
+    padding: 0.5em;
+    font-size: 0.99em;
+    width: 100%;
+}
+
+
+/* image click slide*/
+.article {
+    width: 30%;
+    height: 100vh;
+    margin-bottom: 10rem;
+    
+}
+.glider{
+    position: relative;
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+    
+    
+}
+.glides{
+    display: flex;  
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 400%;
+    height: 100%;
+    transition: all 0.35s cubic-bezier(0.155, 0.03, 0.915, 0.999);
+    
+}
+#image1,#image2,#image3,#image4{
+    border-radius:48%;
+    background-color: orangered;
+    width:90%;
+    height: 65%;
+}
+
+.glide{
+    width: 100%;
+    height: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+ 
+}
+
+.glide  p{
+    display: flex;
+    flex-wrap:wrap;
+    text-align: center;
+    padding: 0.3em;
+    margin-top: 0.5em;
+  
+    
+    
+   
+}
+
+
+.glide a{
+    padding: 0.3em;
+    margin-top: 2em;
+    border:1px solid;
+    width: 7rem;
+    height:3rem;
+    display:flex;
+  justify-content: center;
+    align-items: center;
+    color: orangered;
+    transition: 200ms ease-in;
+}
+.glide a:hover{
+   transform:scale(1.1);
+   border:none;
+   color:white;
+   font-weight: 0;
+   padding: 0.5em;
+   background: rgb(136, 86, 68);
+}
+
+.dots{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    color: black;
+    width: 150px;
+    bottom: 10%;
+    left: 40%;
+    
+}
+.glider .dots label{
+    width: 10px;
+    height: 10px;
+    border: 1px solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.glider input[type='radio']{
+    display: none;
+}
+.glide::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.glider .arrows{
+    display: flex;
+    position: absolute;
+    top: 63%;
+    transform:  translateY(-50%);
+
+    font-size: 1.2rem;
+    
+}
+.article .glider .arrows .fa-solid{
+    border: 1px solid;
+    padding: 18px 20px;
+    background-color: rgb(12, 12, 99);
+    color: white;
+    font-size: 0.8rem;
+}
+.glider .arrows label{
+    display: none;
+}
+.glider .arrows label .fa-solid:hover{
+    cursor: pointer;
+    background-color: rgb(50, 98, 161);
+    transition: 0.10s ease-in-out;
+}
+
+.glider .arrow-left{
+    left: 0%;
+    
+}
+.glider .arrow-right{
+    right: 0%;
+}
+.glider input:nth-child(1):checked ~ .glides{
+    left: 0;
+}
+.glider input:nth-child(2):checked ~ .glides{
+    left: -100%;
+}
+.glider input:nth-child(3):checked ~ .glides{
+    left: -200%;
+}
+.glider input:nth-child(4):checked ~ .glides{
+    left: -300%;
+}
+.glider input:nth-child(1):checked ~ .arrows label:nth-child(1),
+.glider input:nth-child(2):checked ~ .arrows label:nth-child(2),
+.glider input:nth-child(3):checked ~ .arrows label:nth-child(3),
+.glider input:nth-child(4):checked ~ .arrows label:nth-child(4){
+    display: block;
+}
+.glider input:nth-child(1):checked ~ .dots label:nth-child(1),
+.glider input:nth-child(2):checked ~ .dots label:nth-child(2),
+.glider input:nth-child(3):checked ~ .dots label:nth-child(3),
+.glider input:nth-child(4):checked ~ .dots label:nth-child(4){
+background-color: rgb(9, 28, 65); 
+transition: 0.15s ease-in-out;  
+}
+
+/* Our Activities/Events */
+/* page1/Infrastruce Development */
+
+.inf-dev{
+    color:black;
+    padding: 5em;
+    background-color: grey;
+    background-image: url(./images/karis/culture3.jpg.jpg);
+    background-blend-mode: darken;
+}
+.inf-dev-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(243, 233, 242, 0.968);
+    padding: 3em;
+    gap:2em;
+    border:solid green;
+
+
+}
+.idg{
+    border:solid green;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap:2em;
+}
+.inf-dev-cont header{
+    width: 100%;
+    
+}
+.inf-dev-cont header h1{
+   font-size: 2em;
+   text-transform: uppercase;
+    font-weight:900;
+    
+}
+
+.inf-dev-cont img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.idg  a{
+    
+    width: 30%;
+    
+   border: solid green;
+}
+.inf-dev-cont img:hover{
+    border:solid blue;
+}
+/* page2 */
+.mens-health{
+    padding:5em;
+    background-color:grey;
+    background-image: url('./images/karis/culture3.jpg.jpg');
+    background-blend-mode:darken;
+    color:black;
+}
+.mh-cont{
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(243, 233, 242, 0.968);
+    padding: 2em;
+
+}
+.mh-cont p{
+   padding: 2em;
+}
+.mh-cont header h1{
+    padding: 0.2em;
+    font-size: 2em;
+   text-transform: uppercase;
+    font-weight:900;
+    border: solid black;
+}
+.mh-gallery-cont{
+    display:flex;
+    
+    justify-content:center;
+    align-items:center;
+    gap:2em;
+    padding:3em;
+}
+.mh-gallery-cont a{
+    width: 30%;
+    height: 30%;
+}
+.mh-gallery-cont a img{
+    object-fit:cover;
+    width:100%;
+    height:100%;
+}
+/* page3 */
+.ins-sup{
+    padding: 5em;
+    color:black;
+    
+    background-color:grey;
+    background-image: url('./images/karis/culture3.jpg.jpg');
+    background-blend-mode:darken;
+}
+.is-cont{
+    display:flex;
+    flex-direction: column;
+    gap:2em;
+    background-color: rgba(243, 233, 242, 0.968);
+    padding: 2em;
+}
+.is-cont p{
+    padding:2em;
+}
+.is-header h1{
+    padding: 0.2em;
+    font-size: 2em;
+   text-transform: uppercase;
+    font-weight:900;
+    border: solid black;
+}
+.is-gallery-cont{
+    display:flex;
+    
+    justify-content:center;
+    align-items:center;
+    gap:2em;
+    padding:3em;
+}
+.is-gallery-cont a{
+    width: 30%;
+    height: 30%;
+}
+.is-gallery-cont a img{
+    object-fit:cover;
+    width:100%;
+    height:100%;
+}
+
+/* media queries */
+@media (max-width:768px) {
+    
+    #navbar{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:10rem;
+      
+        border: solid black;
+    }
+    #navbar .nav-links {
+       
+        
+        
+        display: flex;
+        flex-direction: column;
+       
+       
+       
+       font-size: 0px;
+       width: 0px;
+       height: 0px;
+       transition: all 800ms ease-in-out;
+       
+       
+       
+        
+    }
+     
+     #check:checked~ .nav-links {
+        font-size: 1.2rem;
+        position: absolute;
+        background-color: rgba(196, 159, 92,0.9);
+        display: flex;
+        flex-direction: column;
+        
+        width: 60%;
+        height: 20rem;
+        top: 12rem;
+        
+       
+    } 
+    #navbar .nav-links li .sub-links-ul {
+        
+       
+        padding-top:0em;
+        width: 100%;
+       
+        transition: all 500ms ease-in; 
+    }
+    
+   
+    #navbar .nav-links li a{
+        color:white;
+        
+    }
+    
+
+    #navbar .nav-links .act:hover > .sub-links-ul {
+        background-color: rgba(196, 159, 92);
+        z-index: 999;
+        
+        width: 100%;
+        font-size: 0.9em;
+        
+    }
+   
+    #navbar .nav-links .act .sub-links-ul li a:hover {
+        font-size: 0.9em;
+        
+        background-color: rgba(255, 127, 80);
+       
+    }
+    #navbar .nav-links li a:hover{
+    font-size: 1.22rem;
+    color:white;
+    background-color: rgba(255, 127, 80);
+    font-weight: 300;
+    width: 100%;
+}
+#navbar .nav-links li a.active{
+    color:orangered;
+    font-weight: 400;
+}
+
+   
+    .logo-header{
+        font-size: 2.5rem;
+        border: solid;
+        position:absolute;
+        left:0em;
+        
+    }
+    .checkbutton{
+        
+        text-align: center;
+        position: absolute;  
+        right: 2em; 
+        top: 3.2rem;
+        
+        
+
+    }
+    
+    #navbar .checkbutton .fas{
+        display: flex;
+        align-items: center;
+        color:rgb(196, 159, 92);
+        font-size: 3.5rem;
+        z-index: 999;
+        cursor: pointer; 
+        width: 3.5rem;
+        height: 3.5rem;
+        border:solid black;
+       
+        
+    } 
+    
+    
+    
+    .caption{
+        top: 30rem;
+        font-size: 1.5rem;
+        left: 0px;
+        width: 18rem;
+    }
+   .san{
+        background-color: rgb(138, 111, 79);
+   }
+   /*click slide*/ 
+   .article{
+    width:100%;
+}
+.glide {
+    gap: 0.5em;
+}
+.glide p{
+    display:flex;
+    justify-content:center;
+}
+.glide a{
+    margin-top:0.6em;
+} 
+}
+@media (max-width:375px) {
+   
+    .section0{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+       
+    }
+    #navbar{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:10rem;
+        
+        border: solid black;
+    }
+    #navbar .nav-links {
+       
+        position: absolute;
+        
+        display: flex;
+        flex-direction: column;
+       
+        top: 12rem;
+       
+       font-size: 0px;
+       width: 0px;
+       height: 0px;
+       transition: all 500ms ease-in;
+       
+       
+        
+    }
+     
+     #check:checked~ .nav-links {
+        font-size: 1rem;
+        position: absolute;
+      
+        display: flex;
+        flex-direction: column;
+        z-index:888;
+        width: 50%;
+        height: 20rem;
+        top: 11rem;
+        width:85%;
+       
+    } 
+     
+    #navbar .nav-links li a:hover{
+        font-size: 0.9rem;
+    }
+   
+    .logo-header{
+        font-size: 1.2rem;
+        border: solid;
+        position:absolute;
+        left:0em;
+        
+    }
+    #navbar form{
+    
+        position: absolute;
+        bottom:0.5em;
+        right:0;
+
+        
+       
+        padding: 0em;
+        gap: 0.5em;
+    
+    }
+    form #btn-r,#btn-l{
+        width: 4rem;
+        
+    }
+    .checkbutton{
+        
+        text-align: center;
+       
+        position:absolute;
+        top: 4.35em;
+        right: 3em;
+
+    }
+    
+    #navbar .checkbutton .fas{
+        display: flex;
+        align-items: center;
+        color:rgb(196, 159, 92);
+        font-size: 2rem;
+        width: 3rem;
+        height: 3rem;
+        cursor: pointer; 
+       
+        
+    } 
+    
+    
+     
+    
+   
+    .caption{
+        top: 30rem;
+        font-size: 1.5rem;
+        left: 0px;
+        width: 18rem;
+    }
+   .san{
+        background-color: rgb(138, 111, 79);
+   }  
+   /* image slide media query */
+   #slider .slide a img{
+    
+    width:100vw;
+    object-fit:cover;
+}
+
+ #slider .slide a figcaption{
+    font-size: 0.6em;
+    top: 23rem;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    margin: 2em;
+ }
+ /* section1 */
+ .section{
+    display: flex;
+    padding: 0em;
+    
+ }
+ .gallery-cont{
+    padding:0.5em;
+    
+    background-color: rgba(243, 233, 242, 0.968);
+    
+   
+    
+ }
+ .gallery-cont .heading{
+    
+    color: black;
+   
+    
+}
+ .img-cont{
+    width:100%;
+    z-index:1;
+    
+ }
+ .img-cont .caption{
+   font-size: 0.7em;
+   width: 100%;
+   flex-wrap:wrap;
+ }
+ 
+/* about section */
+.about-section{
+    display:flex;
+    justify-content: center;
+    padding:0.5em;
+}
+.about-info{
+    width:100%;
+   
+    margin:0px;
+}
+.about-section .about-info h1,h3,h4{
+    
+    font-size: 1.2em;
+   
+    
+    
+}
+/* glider */
+.article{
+    width: 100%;
+}
+.glide img{
+    
+    object-fit:cover;
+}
+
+.inf-dev{
+    padding:0.5em;
+}
+.inf-dev-cont header h1{
+    font-size: 1.2em;
+ }
+ .idg{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.idg a{
+    width: 100%;
+    height:30%;
+}
+.idg a img{
+    object-fit: cover;
+}
+ 
+ /* menstrual health */
+.mens-health{
+    padding:0.5em;
+}
+.mh-cont header h1{
+    font-size: 1.2em;
+ }
+ .mh-gallery-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.mh-gallery-cont a{
+    width: 100%;
+    height:30%;
+}
+
+ /* ins support */
+.ins-sup{
+    padding:0.5em;
+}
+.is-cont header h1{
+    font-size: 1.2em;
+ }
+.is-gallery-cont{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.is-gallery-cont a{
+    width: 100%;
+    height:30%;
+}
+
+ 
+}
+
