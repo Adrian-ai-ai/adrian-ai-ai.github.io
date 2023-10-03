@@ -11,17 +11,40 @@
 <body>
     <section class="section0">
         <nav id="navbar">
-            <input type="checkbox" id="check">
-        <label for="check" class="checkbutton">
-            <i class="fas fa-bars"></i>
-        </label>
-        <h1 class = 'logo-header'>Charity's <span>Foundation</span></h1>
+            <input type="checkbox" id="check" name="check">
+            <label for="check" class="checkbutton">
+                <i class="fas fa-bars"></i>
+            </label>
+            <header class = 'logo-header'>
+                <a href='index.html'><img id='logo-image'src="./images/karis/logos/lkarislogo.jpg.jpg" att="Karis foundation logo">
+                </a>
+            </header>
             <ul class="nav-links">
-                <li><a href='index.html'>About us</a></li>
-                <li><a href='Events.html'>Events</a></li>
-                <li><a class='active' href='Donations.html'>Donations</a></li>
+                <li>
+                    <a href='index.html'>About us</a>
+                </li>
+                <li class="act">
+                    <a href='Events.html'>Our Activities</a>
+                    <ul class="sub-links-ul">
+                        <li><a class='active' href="page1.html">Infrastructure Development</a></li>
+                        <li><a href="page2.html">Menstrual and Reproductive health practices</a></li>
+                        <li><a href="page3.html">Institutional Support and Knowledge Management </a></li>
+                    </ul>
+                </li>
+                <li><a class='active'href='Donations.html'>Donations</a>
+                </li>
                 <li><a href='Contact.html'>Contact</a></li>
             </ul>
+            
+            <form action="">
+                <button id ='btn-r'type="button" >Register</button>
+                <button id='btn-l'type="button" >Log in
+                </button>
+                
+            </form>
+           
+            
+        
         </nav>
     </section>
         <section class ='section1'>
