@@ -905,7 +905,7 @@ transition: 0.15s ease-in-out;
     margin-top:0.6em;
 } 
 }
-@media (max-width:420px) {
+@media (max-width:475px) {
    
     .section0{
         width: 100%;
