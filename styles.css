@@ -220,16 +220,6 @@ span{
       
 }
 
-
-/* #navbar .nav-links .act:hover > .sub-links-ul {
-    background-color: rgba(196, 159, 92);
-    z-index: 3;
-    
-    width: 100%;
-    font-size: 0.9em;
-    
-}  */
-
 form{
     
     /*position: absolute;*/
@@ -448,12 +438,14 @@ img{
 }
 .art-header{
     color:black;
-    margin-left: 1em;
-    text-align:left;
+    
     font-size: 1.8rem;
 }
 .art-p{
     color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     text-align:center;
     font-size: 1.2em;
     margin-bottom: 1em;
@@ -929,9 +921,7 @@ footer{
      gap: 1em;
  
  }
- .smicons{
-     
- }
+ 
  .smicons ul{
      display:flex;
      align-items:center;
@@ -1254,13 +1244,11 @@ footer{
         
     }
     .checkbutton{
-        
+
         text-align: center;
-       
         position:absolute;
         top: 4.35em;
         right: 3em;
-
     }
     
     #navbar .checkbutton .fas{
@@ -1299,6 +1287,20 @@ footer{
     border: 1px solid;
     margin: 2em;
  }
+ /* art */
+ .art-text h1{
+    padding: 0.3em;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+ .art-header{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color:black;
+    text-align:center;
+    font-size: 1.5rem;
+}
  /* section1 */
  .section{
     display: flex;
