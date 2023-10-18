@@ -435,6 +435,7 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items:center;
+    
 }
 .art-header{
     color:black;
@@ -460,9 +461,9 @@ img{
     gap: 0.3em;
     /* padding:2em; */
     margin-bottom: 8rem; 
-    background-color:rgb(245, 243, 243);
-    border-top-right-radius: 1em;
-    border-top-left-radius: 1em;
+    background-image:linear-gradient(110deg,rgb(32, 2, 29),rgb(72, 143, 179),rgb(26, 14, 26));
+    border-top-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
 }
 .art-cont a{
     text-decoration: none;
@@ -482,7 +483,8 @@ img{
 }
  .art-card:hover{
     cursor: pointer;
-    background-color: rgba(20, 122, 182, 0.5);
+    /* background-color: rgba(20, 122, 182, 0.5); */
+    background-color: rgba(88, 188, 255, 0.2);
     box-shadow: .3em 0.2em 0.5em  rgba(0, 0, 0, 0.5);
     border: none;
 } 
@@ -552,20 +554,26 @@ footer .address .smicons{
 }
 /*section 2:*/
 .about-section{
+    display:flex;
+    flex-direction: column;
     width: 100%;
-    padding: 5em;
+    padding: 1.1em;
     color: black;
-    background-color: grey;
-    background-image:url('./images/karis/culture3.jpg.jpg');
+    /* background-color: grey;
+    background-image:url('./images/karis/culture3.jpg.jpg'); */
     background-blend-mode:darken;
 }
 .about-info{
-    padding: 3em;
+    padding: 0.5em;
     display:flex;
     flex-direction: column;
+    justify-content: center;
     align-items:center;
     gap:0.5em;
     background-color:rgb(233, 228, 228);
+    background-image:linear-gradient(110deg,rgb(32, 2, 29),rgb(72, 143, 179),rgb(26, 14, 26));
+    color: rgb(216, 207, 207);
+    border-radius: .3em;
 }
 
 .info-cont{
@@ -575,19 +583,32 @@ footer .address .smicons{
     flex-direction: column;
     margin-bottom: 10rem;
     gap: 2em;
-    text-align:center;
+    
 }
 .info-card{
     width: 100%;
-    padding: 0.2em;
+    border: 1px solid;
+    border-radius:0.2em;
+}
+.info-card p{
+    text-align:center;
+    border-top:1px solid rgb(92, 179, 179);
+    
+}
+.about-section .about-info h1{
+    margin-top: 1em;
+    width: 100%;
+    color:white;
+    
 }
 .about-section .about-info h1,h3,h4{
     padding: 0.3em;
-    text-transform: uppercase;
-    width: 100%;
-    font-size: 2em;
+    font-weight: 500;
+    font-size: 1.4em;
+}
+.about-section .about-info h3,h4{
     
-    
+    text-align:center;
 }
 .about-section .about-info .glides h1{
     font-size: 1em;
@@ -596,6 +617,7 @@ footer .address .smicons{
 .about-section .about-info h5{
     padding: 0.3em;
     font-size: 1em;
+    font-weight: 500;
 }
 .info-card ul{
    padding:0.5em;
