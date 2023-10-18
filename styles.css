@@ -439,7 +439,7 @@ img{
 }
 .art-header{
     color:black;
-    
+    margin-bottom: 2rem;
     font-size: 1.8rem;
 }
 .art-p{
@@ -448,7 +448,7 @@ img{
     justify-content: center;
     align-items: center;
     text-align:center;
-    font-size: 1.2em;
+    font-size: 1em;
     margin-bottom: 1em;
     padding: 0.5em;
 }
@@ -532,6 +532,7 @@ img{
     padding:0.3em;
     font-family:'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-bottom: 10rem;
+    
 }
 
 .art-image{
