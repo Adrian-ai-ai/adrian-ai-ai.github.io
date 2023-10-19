@@ -270,6 +270,7 @@ form #btn-l:hover{
     display:flex;
     justify-content: center;
     align-items:center;
+    margin-top: 5rem;
     /* gap: 1em; */
     flex-wrap:wrap;
     width: 100%;
@@ -282,7 +283,8 @@ form #btn-l:hover{
     width: 100%;
     margin: 1.5em;
     font-size: 1.8em;
-    
+    margin-top: 6rem;
+    margin-bottom: 2rem;
     text-transform: uppercase;
     padding-left: 2em;
     
@@ -375,7 +377,7 @@ img{
 /*image slider*/
 #slider{
     width: 100%;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
     display: flex;
     overflow: hidden;
 }
@@ -438,6 +440,7 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items:center;
+    margin-top: 5rem;
     
 }
 .art-header{
@@ -502,6 +505,25 @@ img{
     font-size: 0.9em;
     transition: all 500ms ease-in-out;
 }
+.more{
+    color:white;
+    display:flex;
+    align-items: center;
+    gap:0.3em;
+    justify-content: center;
+   text-align:center;
+    margin-bottom: 3rem;
+    width: 10rem;
+    height: 3rem;
+    padding:.7em;
+    background-color: rgb(71, 2, 71);
+    transition: all 100ms linear;
+}
+.more:hover{
+    border-radius: 0.3em;
+  
+    transform:scale(1.02);
+}
 .art-card:hover .read-more{
     margin-left: 5rem;
     display:flex;
@@ -550,13 +572,49 @@ img{
 
 
 /* footer */
+.address h1{
+    font-size: 1.6em;
+}
 footer .address{
     display: flex;
     flex-direction: column;
+    gap: 2em;
 }
 footer .address .smicons{
     display: flex;
+   
 }
+footer .address .smicons ul li{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:0.8em;    
+}
+footer .address .smicons ul li i{
+    color:rgb(255, 187, 0);
+    font-size: 1.2em;
+}
+.foot-links {
+    display:flex;
+    flex-direction: column;;
+    gap:2em;
+    
+}
+.foot-links li a{
+      color:white;
+ 
+}
+.foot-links li a:hover{
+    color:purple;
+}
+.copyrights{
+    margin-top: 2em;
+}
+.logo-footer p{
+    margin-top: 5em;
+    font-size: 0.8em;
+}
+
 /*section 2:*/
 .about-section{
     display:flex;
@@ -1123,6 +1181,7 @@ footer{
  .art-card:hover .read-more{
     margin-left: 5rem;
 }
+
  .gallery-cont{
     padding:0.5em;
  }
@@ -1330,7 +1389,7 @@ footer{
     display:flex;
     justify-content: center;
     align-items:center;
-    color:black;
+    color:white;
     text-align:center;
     font-size: 1.5rem;
 }
