@@ -113,6 +113,20 @@ span{
 #navbar .nav-links .act label {
    width:100%;
    height:7rem;
+   display:flex;
+   gap: 0.5em;
+}
+.fa-caret-down{
+    
+    
+    transition: all 300ms linear;
+}
+/* .fa-caret-down:hover{
+    transform:rotate(180deg);
+} */
+#navbar .nav-links .act label:hover> .fa-caret-down{
+    transform:rotate(360deg);
+    color:rgb(196, 159, 92);
 }
 
 
@@ -164,6 +178,7 @@ span{
     
     opacity:1;
   }
+  
 .sub-links-ul li:hover{
     border-bottom-left-radius: 0.99em;
       border-bottom-right-radius: 5em;
@@ -867,7 +882,7 @@ transition: 0.15s ease-in-out;
 
 .inf-dev{
     color:black;
-    padding: 5em;
+    padding: 3em;
     /* background-color: grey;
     background-image: url(./images/karis/culture3.jpg.jpg); */
     background-blend-mode: darken;
@@ -879,7 +894,7 @@ transition: 0.15s ease-in-out;
     justify-content: center;
     align-items: center;
     /* background-color: rgba(243, 233, 242, 0.968); */
-    padding: 3em;
+    
     gap:2em;
     color: white;
 
@@ -917,7 +932,7 @@ transition: 0.15s ease-in-out;
 }
 /* page2 */
 .mens-health{
-    padding:5em;
+    padding:3em;
     /* background-color:grey;
     background-image: url('./images/karis/culture3.jpg.jpg');
     background-blend-mode:darken;
@@ -930,7 +945,7 @@ transition: 0.15s ease-in-out;
     display:flex;
     flex-direction: column;
     
-    padding: 2em;
+    
     color:white;
 }
 .mh-cont p{
@@ -963,7 +978,7 @@ transition: 0.15s ease-in-out;
 }
 /* page3 */
 .ins-sup{
-    padding: 5em;
+    padding: 3em;
     color:black;
     
     /* background-color:grey;
@@ -974,14 +989,14 @@ transition: 0.15s ease-in-out;
     display:flex;
     flex-direction: column;
     gap:2em;
-    padding: 2em;
+    
     color:white;
 }
 .is-cont p{
     padding:1em;
 }
 .is-header h1{
-    padding: 0.2em;
+
     font-size: 2em;
    text-transform: uppercase;
     font-weight:900;
