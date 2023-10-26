@@ -8,6 +8,8 @@
 }
 body{
     
+    display:flex;
+    flex-direction:column;
     
     color: white;
     /* overflow:hidden; */
@@ -1027,11 +1029,33 @@ transition: 0.15s ease-in-out;
     width:100%;
     height:100%;
 }
+/* donations image */
+.dn-img-cont{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.dn-img{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 30%;
+    height: 50%;
+     object-fit:cover;
+}
+.dn-img img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
 /* section 2*/
 .section2{
     display:flex;
     flex-direction: column;
     justify-content: center;
+    align-items:center;
     margin-bottom:5rem;
 }
 .don-cont{
@@ -1039,25 +1063,32 @@ transition: 0.15s ease-in-out;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2em;
+    gap: 3em;
+   
+}
+.don-cont p{
+ 
+ text-align:center;
 }
 .don-cont form{
     display: flex;
     flex-direction: column;
-    gap:1.5em;
-    width: 100%;
+   
+    width:100%;
 }
 .dfh{
     display:flex;
-    gap:10em;
+    justify-content:center;
+    height: 5rem;
+   
    
 }
 .dfh label{
     width: 100%;
-    height: 3em;
     display:flex;
     justify-content: center;
     align-items: center;
+    border: .2em solid;
 
 }
 .dfh label:hover{
@@ -1067,12 +1098,18 @@ transition: 0.15s ease-in-out;
 }
 .dfc{
     display:flex;
-    gap:30em;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    padding:0.3em;
     position:relative;
-    
 }
 .dfi{
     opacity:0;
+    transition: opacity 200ms linear;
+}
+.dfi-1{
+    opacity:0;
+    transition: opacity 200ms linear;
 }
 .dfc p a{
     color: white;
@@ -1083,24 +1120,24 @@ transition: 0.15s ease-in-out;
 .dfc p a{
     color: white;
 }
-.dfi-1{
-    opacity:0;
-}
+
 #f-tag,#f-tag1{
     display:none;
 }
 
 #f-tag:checked ~ .dfc .dfi{
     opacity:1;
-    padding: 1em;
+    
     line-height: 2em;
-    width: 41.5rem;
+    /* width: 41.5rem; */
+    
 }
 #f-tag1:checked ~ .dfc .dfi-1{
     opacity:1;
-    padding: 1em;
+    
     line-height: 2em;
-    width: 41.5rem;
+    /* width: 41.5rem; */
+    
 }
 /* section 3 */
 .section3{
@@ -1678,16 +1715,16 @@ footer{
 }
 #f-tag:checked ~ .dfc .dfi{
     opacity:1;
-    padding: 1em;
+    
     line-height: 2em;
-    width: 30rem;
+   
    
 }
 #f-tag1:checked ~ .dfc .dfi-1{
     opacity:1;
-    padding: 1em;
+   
     line-height: 2em;
-    width: 30rem;
+   
     
     
 }
