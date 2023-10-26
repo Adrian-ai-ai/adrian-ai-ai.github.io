@@ -1426,6 +1426,14 @@ footer{
 .glide a{
     margin-top:0.6em;
 } 
+.dn-img{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 90vw;
+    height: 50%;
+     object-fit:cover;
+}
 }
 @media (max-width:498px) {
    
