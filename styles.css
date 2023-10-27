@@ -650,8 +650,8 @@ footer .address .smicons ul li i{
     display:flex;
     flex-direction: column;
     width: 100%;
-    padding: 1.1em;
-    color: black;
+    padding: .5em;
+    /* color: black; */
     /* background-color: grey;
     background-image:url('./images/karis/culture3.jpg.jpg'); */
     background-blend-mode:darken;
@@ -665,39 +665,42 @@ footer .address .smicons ul li i{
     gap:0.5em;
     /* background-color:rgb(233, 228, 228);
     background-image:linear-gradient(110deg,rgb(32, 2, 29),rgb(72, 143, 179),rgb(26, 14, 26)); */
-    color: rgb(216, 207, 207);
+    color: white;
     border-radius: .3em;
 }
 
 .info-cont{
+    margin-top: 3rem;
     padding: 0.3em;
     width: 100%;
     display:flex;
     flex-direction: column;
     margin-bottom: 10rem;
-    gap: 2em;
+    gap: 3em;
     
 }
 .info-card{
     width: 100%;
     border: 1px solid;
-    border-radius:0.2em;
+    border-radius:0.3em;
 }
 .info-card p{
     text-align:center;
     border-top:1px solid rgb(92, 179, 179);
-    
+    display:flex;
+    justify-content: center;
+    align-items:center;
 }
 .about-section .about-info h1{
     margin-top: 1em;
     width: 100%;
     color:white;
-    
 }
 .about-section .about-info h1,h3,h4{
     padding: 0.3em;
     font-weight: 500;
-    font-size: 1.4em;
+    font-size: 1.5em;
+    
 }
 .about-section .about-info h3,h4{
     
@@ -708,32 +711,39 @@ footer .address .smicons ul li i{
     border:none;
 }
 .about-section .about-info h5{
-    padding: 0.3em;
+    padding: 0.8em;
     font-size: 1em;
     font-weight: 500;
+    border-top:1px solid rgb(92, 179, 179);
+  margin-bottom: 3em;
 }
 .info-card ul{
    padding:0.5em;
+   display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap: 3em;
 }
 .info-card ul li{
-   padding:0.5em;
+   padding:0.8em;
+   border:1px solid;
+   border-radius:0.2em;
 }
-
 
 .about-section .about-info p{
     padding: 0.5em;
     font-size: 0.99em;
     width: 100%;
-   
-   
 }
-
 
 /* image click slide*/
 .article {
     width: 30%;
     height: 100vh;
     margin-bottom: 10rem;
+   box-shadow: 0em 0em 1em .2em;
+    
     
 }
 .glider{
@@ -752,27 +762,30 @@ footer .address .smicons ul li i{
     width: 400%;
     height: 100%;
     transition: all 0.35s cubic-bezier(0.155, 0.03, 0.915, 0.999);
-    
+   
 }
 #image1,#image2,#image3,#image4{
     border-radius:48%;
-    background-color: orangered;
-    width:90%;
-    height: 65%;
+    background-color: purple;
+    width:70%;
+    height: 60%;
+    display:block;
+    object-fit:cover;
 }
 
 .glide{
-    width: 100%;
+    width: 30%;
     height: 100%;
-   
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     text-align: center;
- 
 }
-
+.glide figcaption{
+    padding: .5em;
+    margin-top:5rem;
+}
 .glide  p{
     display: flex;
     flex-wrap:wrap;
@@ -844,9 +857,9 @@ footer .address .smicons ul li i{
     
 }
 .article .glider .arrows .fa-solid{
-    border: 1px solid;
+   
     padding: 18px 20px;
-    background-color: rgb(12, 12, 99);
+    background-color: rgb(82, 12, 99);
     color: white;
     font-size: 0.8rem;
 }
@@ -858,10 +871,8 @@ footer .address .smicons ul li i{
     background-color: rgb(50, 98, 161);
     transition: 0.10s ease-in-out;
 }
-
 .glider .arrow-left{
     left: 0%;
-    
 }
 .glider .arrow-right{
     right: 0%;
@@ -901,6 +912,7 @@ transition: 0.15s ease-in-out;
     /* background-color: grey;
     background-image: url(./images/karis/culture3.jpg.jpg); */
     background-blend-mode: darken;
+    margin-top:3rem;
     
 }
 .inf-dev-cont{
@@ -937,7 +949,6 @@ transition: 0.15s ease-in-out;
 .idg  a{
     
     width: 30%;
-    
    border: solid green;
 }
 .inf-dev-cont img:hover{
@@ -946,6 +957,7 @@ transition: 0.15s ease-in-out;
 /* page2 */
 .mens-health{
     padding:3em;
+    margin-top:3rem;
     /* background-color:grey;
     background-image: url('./images/karis/culture3.jpg.jpg');
     background-blend-mode:darken;
@@ -992,6 +1004,7 @@ transition: 0.15s ease-in-out;
 /* page3 */
 .ins-sup{
     padding: 3em;
+    margin-top:3rem;
     color:black;
     
     /* background-color:grey;
@@ -1088,6 +1101,7 @@ transition: 0.15s ease-in-out;
     display:flex;
     justify-content: center;
     align-items: center;
+    text-align:center;
     border: .2em solid;
 
 }
@@ -1414,10 +1428,19 @@ footer{
    
    /*click slide*/ 
    .article{
-    width:100%;
+    width:60%;
 }
+/* #image1,#image2,#image3,#image4{
+    border-radius:48%;
+    background-color: purple;
+    width:70%;
+    height: 60%;
+    display:block;
+    object-fit:cover;
+} */
 .glide {
     gap: 0.5em;
+    object-fit:cover;
 }
 .glide p{
     display:flex;
@@ -1659,7 +1682,7 @@ footer{
     width: 100%;
 }
 .glide img{
-    
+    width: 30%;
     object-fit:cover;
 }
 
