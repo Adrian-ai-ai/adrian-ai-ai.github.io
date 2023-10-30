@@ -84,10 +84,10 @@ body{
 }
 
 span{
-    color:rgb(247, 83, 18);
-    font-size: 1.1rem;
+    color:rgb(3, 238, 255);
+    font-size: 1.25rem;
     text-align: center;
-    font-family: 'Arial Narrow', Arial;
+    /* font-family: 'Arial Narrow', Arial; */
 }
 #navbar .nav-links {
     font-size: 1.2rem;
@@ -371,6 +371,7 @@ form #btn-l:hover{
     padding: 0.2em 0em 0em 0em;
     opacity: 0;
     transition:opacity 350ms linear;
+    
 }
 .gallery-cont .img-cont:hover figcaption{
     opacity:1;
@@ -434,22 +435,24 @@ img{
     position: absolute;
     top: 50%;
     padding: 0.5em;
-    width: 25rem;
+    /* width: 25rem; */
+    height: 5rem;
+    padding: 2em;
     margin-left: 2.5em;
     display: flex;
     flex-direction: column;
-    
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(200deg,rgba(32, 2, 29,0.3),rgb(72, 143, 179),rgba(26, 14, 26,0.3));
     color: white;
+    text-transform: uppercase;
     
     line-height: 1.3;
 }
 #slider .slide a figcaption h1{
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
-#slider .slide a figcaption:hover{
-    color: rgb(17, 5, 1);
-    background:rgba(196, 159, 92,0.5);
-}
+
 @keyframes slide {
     0% {transform: translateX(0);
     }
@@ -1529,7 +1532,7 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
-        height:10rem;
+        /* height:10rem; */
     }
     #navbar .nav-links {
        
@@ -1634,7 +1637,7 @@ footer{
 
         text-align: center;
         position:absolute;
-        top: 3em;
+        top: 1.5em;
         right: 1em;
         padding-left: 1.2em;
         border-left: 1px solid rgb(72, 143, 179);
@@ -1669,12 +1672,11 @@ footer{
 
  #slider .slide a figcaption{
     font-size: 0.6em;
-    top: 23rem;
+    top: 30rem;
     width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid;
     margin: 2em;
  }
  /* art */
