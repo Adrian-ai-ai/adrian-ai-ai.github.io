@@ -1385,14 +1385,13 @@ footer{
         width:6rem;
     }
     .checkbutton{
-        
-        text-align: center;
-        position: absolute;  
-        right: 2em; 
-        top: 2rem;
-        
-        
 
+        text-align: center;
+        position:absolute;
+        top: 1.3em;
+        right: 1em;
+        padding-left: 1.2em;
+        border-left: 1px solid rgb(72, 143, 179);
     }
     
     #navbar .checkbutton .fas{
@@ -1562,7 +1561,7 @@ footer{
         z-index:999;
         
         height: 32rem;
-        top: 12rem;
+        top: 10rem;
         width:85%;
        
     } 
@@ -1635,15 +1634,17 @@ footer{
 
         text-align: center;
         position:absolute;
-        top: 4.35em;
-        right: 3em;
+        top: 3em;
+        right: 1em;
+        padding-left: 1.2em;
+        border-left: 1px solid rgb(72, 143, 179);
     }
     
     #navbar .checkbutton .fas{
         display: flex;
         justify-content: center;
         align-items: center;
-        color:rgb(196, 159, 92);
+        color:rgb(72, 143, 179);
         font-size: 2rem;
         width: 3rem;
         height: 3rem;
