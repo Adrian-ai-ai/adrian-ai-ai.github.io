@@ -297,7 +297,7 @@ form #btn-l:hover{
     margin-bottom: 10rem;
    position:relative;
     background-color: rgb(1, 15, 24);
-    background-image: url('./images/karis/culture3.jpg.jpg');
+    /* background-image: url('./images/karis/culture3.jpg.jpg'); */
     background-blend-mode: darken;
      overflow:hidden;
 }
@@ -478,13 +478,15 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items:center;
-    margin-top: 5rem;
+    
+    margin-top: 0em;
     
 }
 .art-header{
     color:white;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     font-size: 1.8rem;
+    text-align:center;
 }
 .art-p{
     color:white;
@@ -1564,7 +1566,7 @@ footer{
         z-index:999;
         
         height: 32rem;
-        top: 10rem;
+        top: 7rem;
         width:85%;
        
     } 
@@ -1820,6 +1822,37 @@ footer{
     
     
 }
- 
+.ins-sup{
+    padding: 3em;
+    margin-top:7rem;
+    color:black;
+    
+    /* background-color:grey;
+    background-image: url('./images/karis/culture3.jpg.jpg');
+    background-blend-mode:darken; */
+}
+.mens-health {
+    padding: 3em;
+    margin-top:7rem;
+    color:black;
+} .inf-dev{
+    padding: 3em;
+    margin-top:7rem;
+    color:black;
+}
+.about-section{
+    margin-top:7rem;
+    color:black;
+}
+.dn-img-cont{
+   
+    margin-top:7rem;
+    color:black;
+}
+.contacts-info{
+    
+    margin-top:7rem;
+    color:black;
+}
 }
 
